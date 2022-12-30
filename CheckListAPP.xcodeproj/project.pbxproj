@@ -13,6 +13,8 @@
 		4BF4610D295B104400984F23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF4610B295B104400984F23 /* Main.storyboard */; };
 		4BF4610F295B104500984F23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF4610E295B104500984F23 /* Assets.xcassets */; };
 		4BF46112295B104500984F23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF46110295B104500984F23 /* LaunchScreen.storyboard */; };
+		4BF4611A295B2CEF00984F23 /* CheckListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF46119295B2CEF00984F23 /* CheckListTableViewController.swift */; };
+		4BF4611C295B2D1200984F23 /* CheckListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF4611B295B2D1200984F23 /* CheckListTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		4BF4610E295B104500984F23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4BF46111295B104500984F23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4BF46113295B104500984F23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF46119295B2CEF00984F23 /* CheckListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTableViewController.swift; sourceTree = "<group>"; };
+		4BF4611B295B2D1200984F23 /* CheckListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckListTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				4BF46107295B104400984F23 /* SceneDelegate.swift */,
 				4BF46109295B104400984F23 /* ViewController.swift */,
 				4BF4610B295B104400984F23 /* Main.storyboard */,
+				4BF4611B295B2D1200984F23 /* CheckListTableViewCell.swift */,
+				4BF46119295B2CEF00984F23 /* CheckListTableViewController.swift */,
 				4BF4610E295B104500984F23 /* Assets.xcassets */,
 				4BF46110295B104500984F23 /* LaunchScreen.storyboard */,
 				4BF46113295B104500984F23 /* Info.plist */,
@@ -139,7 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4BF4610A295B104400984F23 /* ViewController.swift in Sources */,
+				4BF4611C295B2D1200984F23 /* CheckListTableViewCell.swift in Sources */,
 				4BF46106295B104400984F23 /* AppDelegate.swift in Sources */,
+				4BF4611A295B2CEF00984F23 /* CheckListTableViewController.swift in Sources */,
 				4BF46108295B104400984F23 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
